@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+  margin:0;
+  font-size: 18px;
+ 
+}
+body {
+  background-image: url("https://cdn.wallpapersafari.com/17/28/4g1uSw.jpg");
+  color: black;
+  font-family: Sofia, Arial, Helvetica, sans-serif;
+  padding-bottom: 2em;
+}
+
+.space {
+  padding: 0.5em;
+}
+
+section {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+.button-color {
+  background-color: #ffa31a;
+}
+
+/* NAV-BAR */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 1em;
+
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+/* HEAD */
+
+#logo {
+  width: 60px;
+}
+
+#h1 {
+  padding-top: 2em;
+  padding-right: auto;
+  padding-bottom: 0;
+  padding-left: auto;
+  font-size:3em;
+}
+
+.h2 {
+  padding-top: 1em;
+  font-size: 2em;
+}
+
+#header-img {
+  display: block;
+  margin:auto;
+  height: auto;
+  width: 600px;
+}
+
+.border {
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+
+/* DECALS */
+
+.flex-container {
+  display:flex;
+  justify-content: center;
+
+}
+
+.flex-cards {
+  display: flex;
+  margin: 15px;
+
+}
+
+.img2{
+  width: 250px;
+  height: 200px;
+}
+
+.card {
+  list-style-type: none;
+  padding:0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.card:hover {
+
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.9)
+}
+
+.card .header {
+  background-color: #eee;
+  color: white;
+  font-size: 25px;
+  padding: 0;
+  margin:0;
+}
+
+.card li {
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+  text-align: center;
+}
+
+.card .white_card_back {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+/* VIDEOS */
+
+#video {
+  width: 450px;
+  height: 300px;
+}
+
+/* FORMS */
+#email {
+  width: 40%;
+  padding: 0.5em;
+  margin: 1em;
+  
+}
+
+#submit {
+  border:1px;
+  text-transform: uppercase;
+}
+
+#submit:hover {
+
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.9)
+}
+
+/* END */
+.my_signature {
+  color: #00308F;
+  font-family: Orbitron;
+  font-weight: bold;
+}
+
+
+
+          /* @media queries */
+
+
+@media(max-width: 600px){
+  
+  /* HEADER */
+  #header-img {
+    max-width: 95%
+    }
+
+  /* DECALS */
+  .flex-container {
+    flex-direction: column;
+    }
+
+  .flex-cards {
+    display: flex;
+    justify-content: center;
+  }
+
+  .img2 {
+    width: 190px;
+    height: 130px;;
+  }
+
+  /* VIDEO */
+  #video {
+    max-width: 95%
+  }
+
+   /* FORM */
+  #email {
+    width: 70%;
+  }
+
+
+}
+
+
+

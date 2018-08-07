@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Happily coded by Manuel Martin -->
+<!-- FCC Completion checker -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!--BOOTSTRAPS & EXTRAS -->
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+<link rel="stylesheet" href="landing.css">
+<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet" type="text/css">
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<script src="https://cdnjs.cloudflare.com/aja/libs/jquery/3.3.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/aja/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/aja/libs/twitter-bootstrap/4.1.2/js/bootstrap.min.js"></script>
+
+<title>Landing Page Example</title>
+</head>
+
+<!--CODING STARTS HERE -->
+
+<!-- NAV-BAR -->
+<header id="header">
+<nav id="nav-bar" class="topnav">
+  <a href="#Home" class="active button-color" class="nav-link" >Home</a>
+  <a href="#Decals" class="nav-link">Decals</a>
+  <a href="#Installation" class="nav-link">Installation</a>
+  <a href="#About" class="nav-link">About</a>
+
+</nav>
+
+<!-- HEAD -->
+<div id="main-container">
+<h1 id="h1">Home<span class="logo">
+  <img id="logo" src="http://givemeasign.com/wp-content/uploads/2016/10/icon-sticker.png" alt="sticker logo">
+</span>Decal Store</h1>
+
+<section id="Home"><h2>Transform your home with our decals like a fresh breeze </h2></section>
+
+<img id="header-img"  class="space shadow" src="https://img0.etsystatic.com/000/0/6121503/il_fullxfull.206728882.jpg" alt="Decal on a wall">
+
+</header>
+
+<body>
+<!-- DECALS -->
+<section id="Decals"><h2 class="h2">Decals</h2></section>
+
+<div class="flex-container">
+  <div class="flex-cards">
+   <ul class="card shadow">
+      <li class="header"><img class="img2" src="http://www.vinylisyourfriend.com/assets/images/listings/2360%20free%20samples%20pack%20050714-01.jpg" alt="Decal on a wall"></li>
+      <li class="white_card_back">10,99€</li>
+      <li class="white_card_back"><a href="#" class="button button-color">Get it</a></li>
+    </ul>
+</div>
+  <div class="flex-cards">
+    <ul class="card shadow">
+      <li class="header"><img class="img2"src="https://ae01.alicdn.com/kf/HTB1yUGoOpXXXXaDaFXXq6xXFXXX1/Five-Coffee-Baby-Owl-Wall-Decal-PVC-Waterproof-Hollow-Out-Home-Decor-Living-Room-Wall-Sticker.jpg" alt="Decal on a wall"></li>
+      <li class="white_card_back">15,99€</li>
+      <li class="white_card_back"><a href="#" class="button button-color">Get it</a></li>
+    </ul>
+</div>
+  <div class="flex-cards">
+   <ul class="card shadow">
+      <li class="header"><img class="img2" src="http://www.lindamckie.com/wp-content/uploads/2018/05/tree-with-owls-wall-decal-beautiful-flipkart-smartbuy-extra-pvc-vinyl-sticker-price-in-india-buy-of-tree-with-owls-wall-decal.jpg" alt="Decal on a wall"></li>
+      <li class="white_card_back">20,99€</li>
+      <li class="white_card_back"><a href="#" class="button button-color">Get it</a></li>
+    </ul>
+</div>
+</div>
+
+
+
+
+<!-- INSTALLATION / VIDEO -->
+<section id="Installation"><h2 class="h2">Installation</h2></section>
+<h3>Afraid of the installation? <br>It´s easy. <br>Check the video:</h3><br>
+<div>
+<iframe id ="video" class="space shadow"  src="https://www.youtube.com/embed/S3NVaCRkCk8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<p>
+Video courtesy of
+<a href="https://www.dezignwithaz.com/" target="_blank">dezignwithaz</a>.
+</p>
+<br>
+</div>
+
+<!-- FORM -->
+<div class="space"><br>
+    <h3>If you want to receive a free sample, please enter your mail:</h3>
+    <form id="form"  action="https://www.freecodecamp.com/email-submit">
+      <input name="email" id="email" class=" shadow"type="email" placeholder="Please, enter your e-mail"required><br>
+      <input id="submit" class="button button-color shadow" type="submit" value="submit"></input>
+    </form>
+  </div>
+
+
+<!-- END -->
+<section id="About"><h2 class="h2">About</h2></section>
+
+<div class="space">
+    <span>Happily coded by:</span>
+    <span class="my_signature">
+      <br>Manuel Martín
+      <br>
+      <div>
+        <a id="github_manuel_martin" href="https://github.com/manuman79/" target="_blank">
+          <i class="fa fa-github" style="font-size:36px"></i>
+        </a>
+      </div>
+
+  </div>
+  <div>
+    <p>
+      <b>using: </p>
+    <i class="fa fa-html5" style="font-size:3em; color:red"></i>
+    <i class="fa fa-css3" style="font-size:3em;color:blue"></i>
+    <i class="fa fa-bold" style="font-size:3em;color:violet"></i>
+  </div>
+</div>
+
+
+</body>
+</html>
